@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# Movie Flix
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+這是一個用於學習和展示目的的個人專案，旨在展示如何使用 The Movie Database (TMDB) API 來獲取並顯示電影資訊。
 
-## Get started
+## 專案簡介
 
-1. Install dependencies
+本應用程式允許使用者瀏覽熱門電影、搜尋電影以及查看電影詳情。此專案僅用於個人學習與展示開發能力，不具備任何商業用途。
 
-   ```bash
-   npm install
-   ```
+## 功能與展示
 
-2. Start the app
+- 瀏覽當前熱門電影
+- 根據關鍵字搜尋電影
+- 查看電影海報、評分、劇情簡介等資訊
 
-   ```bash
-   npx expo start
-   ```
+## 技術棧 (Technology Stack)
 
-In the output, you'll find options to open the app in a
+- **React Native** + **Expo**
+- **expo-router**：檔案式路由
+- **NativeWind** (Tailwind CSS for React Native)：樣式
+- **TypeScript**
+- **TMDB API**：電影資料來源
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 環境需求
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Node.js（建議 v22 LTS 版本）
+- npm
+- Expo Go App（手機端預覽）或 iOS 模擬器 / Android 模擬器
 
-## Get a fresh project
-
-When you're ready, run:
+## 安裝與執行
 
 ```bash
-npm run reset-project
+# 安裝依賴
+npm install
+
+# 啟動開發伺服器
+npm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+啟動後可使用 QR Code 以 Expo Go 掃描，或按 `a`（Android）、`i`（iOS）在模擬器執行。
 
-## Learn more
+## 資料來源標示 (Attribution)
 
-To learn more about developing your project with Expo, look at the following resources:
+本產品使用了 TMDB API，但未經 TMDB 認可或認證。
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This product uses the TMDB API but is not endorsed or certified by TMDB.
 
-## Join the community
+## 授權 (License)
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+本專案採用 MIT 授權條款。
