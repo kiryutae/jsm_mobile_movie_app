@@ -1,15 +1,16 @@
 {
   "expo": {
     "name": "MovieFlix",
-    "slug": "jsm_mobile_movie_app",
+    "slug": "movieFlix",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/logo.png",
-    "scheme": "movies",
+    "scheme": "movieFlix",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jsm.movieflix"
     },
     "android": {
       "adaptiveIcon": {
@@ -17,7 +18,8 @@
         "foregroundImage": "./assets/images/logo.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.jsm.movieflix"
     },
     "web": {
       "output": "static",
